@@ -16,7 +16,7 @@ export default class MyComponent extends Component {
   fetchData() {
     this.setState({ isPosting: true, error: null });
     axios.get('https://swapi.co/api/people').then(response => {
-      this.setState({ data: response.data.results });
+      this.setState({ data: response.data });
     }).catch(error => {
       this.setState({ error });
     }).then(() => {
