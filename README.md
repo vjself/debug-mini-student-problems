@@ -1,6 +1,6 @@
 # Debug mini student problems
 
-See README.md in project root.
+See README.md in master branch.
 
 ---
 
