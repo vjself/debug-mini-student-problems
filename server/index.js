@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 app.use(bodyParser.json());
 
-app.get('/api/data', (req, res) => {
+app.get('/data', (req, res) => {
   res.json({ greeting: 'hello' });
 });
 
