@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import './MyComponent.css';
 
 export default class MyComponent extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {};
-  // }
-
   render() {
     const letters = ['a', 'b', 'c'];
     
