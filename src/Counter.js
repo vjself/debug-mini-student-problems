@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './Counter.css';
+import React, { Component } from "react";
+import "./Counter.css";
 
 export default class Counter extends Component {
   constructor() {
@@ -7,6 +7,7 @@ export default class Counter extends Component {
     this.state = {
       counter: 0
     };
+    this.increment = this.incriment.bind(this);
   }
 
   increment() {
